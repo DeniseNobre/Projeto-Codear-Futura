@@ -1,0 +1,137 @@
+ * {
+ 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: ;
+ }
+
+ #cabecalho {
+ 	background: #c8bfd8;
+ }
+
+ #logo-cabecalho {
+ 	height: 150px;
+ 	width: 180px;
+ 	margin: 5px;
+ }
+
+ h1 {
+ 	display: inline;
+ 	font-size: 40px;
+ 	background: #c8bfd8;
+ }
+
+ nav {
+ 	display: flex;
+    justify-content: flex-end;
+    background: #c8bfd8;
+ }
+
+ li {
+ 	display: inline-block;
+ 	font-size: 20px;
+ 	color: #0c0a0c;
+ 	background: #c8bfd8;
+ }
+
+body {
+	background: #644c7c;
+}
+
+main {
+ 	
+ 	justify-content: space-around;
+ 	background: #644c7c;
+ 	margin: 20px;
+ }
+
+ .foto {
+ 	height: 175px;
+ 	width: 225px;
+ 	margin: 1em;
+ }
+
+ a {
+ 	font-size: 25px;
+ 	color: black;
+ }
+
+ #parte-um {
+ 	text-align: center;
+ 	font-size: 25px;
+ 	background: #c8bfd8;
+ }
+
+.link {
+	font-size: 30px;
+	margin: 10px;
+}
+
+ .texto {
+ 	font-size: 20px;
+ }
+
+ .imagem {
+ 	height: 175px;
+ 	width: 225px;
+ 	margin: 1em 1em 1em 1em;
+ }
+
+#conteúdo-parte-dois {
+	display: block;
+	text-align: center;
+	background: #c8bfd8;
+}
+
+#texto-imagem-parte-dois {
+	display: flex;
+	justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 2em;
+}
+
+#conteúdo-parte-tres {
+	display: block;
+	text-align: center;
+	background: #c8bfd8;
+}
+
+#texto-imagem-parte-tres {
+	display: flex;
+	justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 2em;
+}
+
+ #texto_parte_quatro {
+ 	text-align: center;
+ 	margin: 1em;
+ }
+
+#imagens_redes_sociais {
+	text-align: center;
+}
+
+.redes_sociais {
+	height: 50px;
+	width: 50px;
+	margin: 1em 2em 1em 2em;
+}
+
+footer {
+ 	background: #c8bfd8;
+ }
+
+ 
+ #div-rodape {
+ 	text-align: center;
+ 	background: #c8bfd8;
+ }
+
+ #logo-rodape {
+ 	width: 130px;
+ 	height: 100px;
+ 	margin-top: 5px;
+ }
