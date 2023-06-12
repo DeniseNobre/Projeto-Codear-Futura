@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	</head>
+
+	<body>
+		<form>
+			
+			<label for="tipo">Tipo de animal</label>
+			<input type="text" id="tipo" name="tipo">
+
+			<label for="nome">Nome do animal</label>
+			<input type="text" id="nome" name="nome">
+
+			<label for="raça">Raça</label>
+			<input type="text" id="raça" name="raça">
+
+			<label for="resgate">Data resgate</label>
+			<input type="data" id="resgate" name="resgate">
+
+			<button type="button" onclick="adicionarAnimal()">Adicionar animal</button>
+
+		</form>
+
+		<script type="text/javascript">
+
+			let animais = [
+			{
+				tipo: "gato",
+				nome: "paçoca",
+				raça: "srd",
+				resgate: "15/03/2020"
+			},
+			{
+				tipo: "cachorro",
+				nome: "chico",
+				raça: "srd",
+				resgate: "15/03/2020"
+			},
+			{
+				tipo: "gato",
+				nome: "nina",
+				raça: "srd",
+				resgate: "15/03/2020"
+			},
+			{
+				tipo: "gato",
+				nome: "lua",
+				raça: "srd",
+				resgate: "15/03/2020"
+			},
+			{
+				tipo: "cachorro",
+				nome: "flora",
+				raça: "srd",
+				resgate: "15/03/2020"
+			},
+		]
+
+			function adicionarAnimal () {
+				//armazena as informações inseridas pelo usuário em variáveis//
+				let tipo = document.getElementById("tipo").value;
+				let nome = document.getElementById("nome").value;
+				let raça = document.getElementById("raça").value;
+				let resgate = document.getElementById("resgate").value;
+
+				//criar um novo objeto //
+				let animal = {
+					tipo: tipo,
+					nome: nome,
+					raça: raça,
+					resgate: resgate,
+				}
+
+				// Adicionar o novo objeto//
+				animais.push(novoAnimal);
+
+				// Limpar o formulário//
+				document.getElementById("tipo").value = "";
+				document.getElementById("nome").value = "";
+				document.getElementById("raça").value = "";
+				document.getElementById("resgate").value = "";
+
+				// Mensagem de alerta//
+
+				alert ("Animal adicionado com sucesso");
+			}
+
+			}
+
+			let botao = document.querySelector(button)
+			botao.onclick = adicionarAnimal
+		</script>
+	</body>
