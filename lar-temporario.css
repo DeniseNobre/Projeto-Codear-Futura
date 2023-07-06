@@ -1,0 +1,64 @@
+ * {
+ 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: ;
+ }
+
+ body {
+	background: #644c7c;
+}
+
+#section-um-lar-temporario {
+	background: #c8bfd8;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 50px 10px 50px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.section-div-texto {
+	padding: 05px 10px 20px 10px;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#texto-um-lar-temporario {
+	text-align: left;
+}
+
+#texto-dois-lar-temporario {
+	text-align: right;
+}
+
+#texto-tres-lar-temporario {
+	text-align: right;
+}
+
+.img-lar-temporario {
+	height: 100px;
+	width: 100px;
+	margin: 0px 10px 0px 10px;
+}
+
+#titulo-formulário-lar-temporario {
+	background: #a494b4;
+	margin: 10px;
+	padding: 10px 30px 10px 0px;
+	border-radius: 20px;
+}
+
+form {
+	padding: 10px 0px 0px 0px;
+}
+
+#button-lar-temporario {
+	background: #c8bfd8;
+	width: 100px;
+	margin: 10px;
+	padding: 05px;
+	border-radius: 15px;
+	border-color: #644c7c;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	</head>
+
+	<body>
+
+		<h1>Lista animais</h1>
+
+		<form id="formulario">
+		    <label for="tipo">Tipo de animal:</label>
+		    <input type="text" id="tipo" name="tipo" required>
+		    <br>
+		    <label for="nome">Nome do animal:</label>
+		    <input type="text" id="nome" name="nome" required>
+		    <br>
+		    <label for="sexo">Sexo do animal:</label>
+		    <input type="text" id="sexo" name="sexo" required>
+		    <br>
+		    <button type="submit">Adicionar</button>
+		</form>
+
+	<script type="text/javascript">
+    function adicionarAnimal(event) {
+        event.preventDefault();
+
+        let tipo = document.getElementById('tipo').value;
+        let nome = document.getElementById('nome').value;
+        let sexo = document.getElementById('sexo').value;
+
+        let novoAnimal = {
+            "tipo": tipo,
+            "nome": nome,
+            "sexo": sexo,
+        };
+
+        let bancoDeDados = JSON.parse(localStorage.getItem('bancoDeDados')) || [];
+
+        bancoDeDados.push(novoAnimal);
+
+        localStorage.setItem('bancoDeDados', JSON.stringify(bancoDeDados));
+
+        document.getElementById('formulario').reset();
+
+        mostra();
+    }
+
+    function mostra() {
+        let novoAnimal = document.getElementById('novoAnimal');
+        novoAnimal.innerHTML = '';
+
+        let bancoDeDados = JSON.parse(localStorage.getItem('bancoDeDados')) || [];
+
+        bancoDeDados.forEach(function(item) {
+            let li = document.createElement('li');
+            li.textContent = item.tipo + ' ' + item.nome + ' ' + item.sexo;
+            novoAnimal.appendChild(li);
+        });
+    }
+
+    document.getElementById('formulario').addEventListener('submit', adicionarAnimal);
+
+    mostra();
+</script>
+
+
+		</script>
+	</body>

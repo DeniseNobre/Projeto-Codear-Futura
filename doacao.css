@@ -1,0 +1,76 @@
+ * {
+ 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: ;
+ }
+
+ body {
+	background: #644c7c;
+}
+
+#section-doacao-um {
+	background: #c8bfd8;
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	margin: 10px 10px 0px 10px;
+	padding: 10px 10px 30px 0px;
+}
+#section-um-div-um {
+	text-align: center;
+	margin: 5px 10px 20px 10px;
+}
+#div-doacao-img-txt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+}
+
+.img-section-um {
+	height: 150px;
+	width: 150px;
+	margin: 0px 20px;
+}
+
+#section-doacao-dois {
+	background: #c8bfd8;
+	margin: 0px 10px 10px 10px;
+	padding: 10px;
+}
+
+#section-dois-div-um {
+	background: #a494b4;
+	margin: 0px 10px 10px 10px;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#section-dois-div-formulario {
+	margin: 10px 150px 15px 150px;
+	background: #c8bfd8;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#button-formulario-doacao {
+	background: #a494b4;
+	width: 100%;
+	max-width: 80px;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 7px;
+}
+
+#section-dois-div-img {
+	text-align: center;
+}
+
+.doacao-parte-fotos {
+	height: 150px;
+	width: 200px;
+	margin: 15px;
