@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="../style.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caladea&family=Cormorant:ital@0;1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <title>Patinhas Unidas</title>
+    </head>
+
+    <body>
+        <header>
+            <div id="cabecalho">
+                <img id="logo-cabecalho" src="../Imagens/logo.png" alt="Logotipo Patinhas Unidas">
+                <h1 id="h1-index">Patinhas Unidas</h1>
+                <nav id="nav-cabecalho">
+                    <span id="menu-icon" class="material-icons" onclick="clickMenu()">menu</span>
+                    <ul id="ul-cabecalho">
+                        <li><a class="link-cabecalho" href="../index.html">Página inicial</a></li>
+                        <li><a class="link-cabecalho" href="../adocao./index.html">Adoção</a></li>
+                        <li><a class="link-cabecalho" href="../lar-temporario./index.html">Lar temporário</a></li>
+                        <li><a class="link-cabecalho" href="../doacao./index.html">Doação</a></li>
+                        <li><a class="link-cabecalho" href="./index.html">Cadastrar</a></li>
+                        <li><a class="link-cabecalho" href="../animais-cadastrados./index.html">Animais</a></li>
+                        <li><a class="link-cabecalho" href="../sobre-nos./index.html">Sobre nós</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+	<body>
+        <main>
+            <section id="section-cadastar-animais">
+                <div id="div-cadastrar-animais">
+                    <h1 id="titulo-cadastar-animais">Cadastrar animais</h1>
+                    <div id="div-form-adicionarAnimal">
+                        <form id="formulario-animais">
+                            <label for="tipo">Tipo de animal:</label><br>
+                            <input type="text" id="tipo" name="tipo" required>
+                            </p>
+                            <label for="nome">Nome do animal:</label><br>
+                            <input type="text" id="nome" name="nome" required>
+                            </p>
+                            <label for="sexo">Sexo do animal:</label><br>
+                            <input type="text" id="sexo" name="sexo" required>
+                            <br>
+                            <button class="bt-pg-cadastrar-animais" id="bt-adicionar" type="submit">Adicionar</button>
+                        </form>
+                        <a href="../index.html"><button class="bt-pg-cadastrar-animais">Voltar</button></a>
+                        <a href="../animais-cadastrados./index.html"><button class="bt-pg-cadastrar-animais" id="bt-conferir">Conferir</button></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="./script.js"></script>
+        
+        <footer>
+            <div id="div-rodape">
+                <img id="logo-rodape" src="../Imagens/logo.png" alt="Logotipo Patinhas Unidas">
+            </div>
+        </footer>
+    </body>
+</html>

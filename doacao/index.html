@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="../style.css"/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Caladea&family=Cormorant:ital@0;1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<title>Patinhas Unidas</title>
+	</head>
+
+	<body>
+		<header>
+			<div id="cabecalho">
+				<img id="logo-cabecalho" src="../Imagens/logo.png" alt="Logotipo Patinhas Unidas">
+				<h1 id="h1-index">Patinhas Unidas</h1>
+				<nav id="nav-cabecalho">
+					<span id="menu-icon" class="material-icons" onclick="clickMenu()">menu</span>
+					<ul id="ul-cabecalho">
+						<li><a class="link-cabecalho" href="../index.html">Página inicial</a></li>
+						<li><a class="link-cabecalho" href="./index.html">Adoção</a></li>
+						<li><a class="link-cabecalho" href="../lar-temporario./index.html">Lar temporário</a></li>
+						<li><a class="link-cabecalho" href="../doacao./index.html">Doação</a></li>
+						<li><a class="link-cabecalho" href="../cadastrar-animal./index.html">Cadastrar</a></li>
+						<li><a class="link-cabecalho" href="../animais-cadastrados./index.html">Animais</a></li>
+						<li><a class="link-cabecalho" href="../sobre-nos./index.html">Sobre nós</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section id="section-doacao-um" >
+			<div id="section-um-div-um">
+				<h2 class="titulo-doacao"> Como fazer uma doação?</h2>
+			</div>
+			<div id="div-doacao-dois">
+				<div id="div-doacao-img-txt">
+					<img class="img-section-um" src="../Imagens/moedas.png" alt="Logotipo Patinhas Unidas">
+					<h3 class="texto-como-fazer-doacao"> Escolha um valor</h3>
+					<img class="img-section-um" src="../Imagens/pagamento.png" alt="Logotipo Patinhas Unidas">
+					<h3 class="texto-como-fazer-doacao">Escolha a forma de pagamento</h3>
+					<img class="img-section-um" src="../Imagens/formulario.png" alt="Logotipo Patinhas Unidas">
+					<h3 class="texto-como-fazer-doacao">Insira seus dados</h3>
+				</div>
+			</div>
+		</section>
+
+		<section id="section-doacao-dois">
+			<div id="section-dois-div-um" >
+				<h2 class="titulo-doacao">Faça uma doação</h2>
+				<br>
+				<h3 class="texto-como-fazer-doacao">Sua doação é muito importante para que nosso projeto continue ajudando mais animais</h3>
+
+				<div id="section-dois-div-img" >
+					<img class="doacao-parte-fotos"src="../Imagens/foto floquinho.jpg" alt="Gata Kiara">
+					<img class="doacao-parte-fotos" src="../Imagens/gata Kiara.jpg" alt="Gata Kiara">
+					<img class="doacao-parte-fotos" src="../Imagens/foto orelhudo.jpg" alt="Gata Kiara">
+				</div> 
+				<div id="section-dois-div-formulario" >
+					<form>
+						<label for="valor">Escolha um valor</label>
+						<br>
+						<input type="number" name="valor" placeholder="Ex: 15,00">
+						<br>
+						<label for="forma-pagamento">Escolha uma forma de pagamento</label>
+						<br>
+						<select name="escolha-pagamento" id="opcao-escolha-pagamento" class="selectbox">
+							<option value="escolha" selected="selected">Escolha</option>
+							<option value="cartão">Cartão de crédito</option>
+							<option value="transferencia">Transferência Bancária</option>
+						</select>
+						<br>
+						<label for="nome">Nome Completo</label>
+						<br>
+						<input type="text" name="nome" placeholder="Nome completo">
+						<br>
+						<label for="cpf">CPF</label>
+						<br>
+						<input type="number" name="cpf" placeholder="Apenas números">
+						<br>
+						<button id="button-doacao">Doar</button>
+					</form>
+				</div>       
+			</div>
+		</section>
+
+		<footer>
+			<div id="div-rodape">
+				<img id="logo-rodape" src="../Imagens./logo.png" alt="Logotipo Patinhas Unidas">
+			</div>
+		</footer>
+		<script src="./script.js"></script>
+	</body>
+</html>

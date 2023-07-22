@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="../style.css"/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Caladea&family=Cormorant:ital@0;1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<title>Patinhas Unidas</title>
+	</head>
+
+	<body>
+		<header>
+			<div id="cabecalho">
+				<img id="logo-cabecalho" src="../Imagens/logo.png" alt="Logotipo Patinhas Unidas">
+				<h1 id="h1-index">Patinhas Unidas</h1>
+				<nav id="nav-cabecalho">
+					<span id="menu-icon" class="material-icons" onclick="clickMenu()">menu</span>
+					<ul id="ul-cabecalho">
+						<li><a class="link-cabecalho" href="../index.html">Página inicial</a></li>
+						<li><a class="link-cabecalho" href="./index.html">Adoção</a></li>
+						<li><a class="link-cabecalho" href="../lar-temporario./index.html">Lar temporário</a></li>
+						<li><a class="link-cabecalho" href="../doacao./index.html">Doação</a></li>
+						<li><a class="link-cabecalho" href="../cadastrar-animal./index.html">Cadastrar</a></li>
+						<li><a class="link-cabecalho" href="../animais-cadastrados./index.html">Animais</a></li>
+						<li><a class="link-cabecalho" href="../sobre-nos./index.html">Sobre nós</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+			<section id="section-formulário">
+				<div id="texto-formulario">
+					Quer adotar um de nossos resgatados?
+					<br>
+					Preencha nosso formulário abaixo e aguarde o contato da nossa equipe.
+				</div>
+				<div id="formulário">
+					<h2 id="titulo-formulario">Formulário de cadastro</h2>
+					<br>
+					<form>
+						<label for="nome">Nome Completo</label>
+						<br>
+						<input type="text" name="nome" placeholder="Nome completo">
+						<br>
+						<label for="cpf">CPF</label>
+						<br>
+						<input type="number" name="cpf" placeholder="Apenas números">
+						<br>
+						<label for="e-mail">E-mail</label>
+						<br>
+						<input type="E-mail" name="e-mail">
+						<br>
+						<label for="telefone">Telefone</label>
+						<br>
+						<input type="tel" name="Telefone" placeholder="Ex:(11)123456789">
+						<br>
+						<label for="senha">Senha</label>
+						<br>
+						<input type="password" name="senha" placeholder="letras e números">
+						<br>
+						<label for="confirmar-senha">Confirmar senha</label>
+						<br>
+						<input type="password" name="confirmar-senha">
+						<br>
+						<button id="bt-formulario-adocao">Cadastrar</button>
+						<br>
+					</form>
+				</div>
+			</div>
+			</section>
+			<footer>
+			<div id="div-rodape">
+				<img id="logo-rodape" src="../Imagens/logo.png" alt="Logotipo Patinhas Unidas">
+			</div>
+			<script src="./script.js"></script>
+	</body>

@@ -1,0 +1,806 @@
+* {
+ 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caladea&family=Cormorant:ital@0;1&family=Roboto:wght@300&display=swap');
+
+body {
+	background: #644c7c;
+}
+
+header {
+	background: #c8bfd8;
+}
+
+#cabecalho {
+	width: 100%;
+	display: inline-flex;
+	align-items: baseline;
+}
+
+#logo-cabecalho {
+	height: 150px;
+	width: 250px;
+}
+
+#h1-index {
+	color: #ffffff;
+	margin: 5px 10px;
+	font-family: 'Caladea', serif;
+}
+
+#nav-cabecalho {
+	 display: flex;
+    justify-content: flex-end;
+}
+
+li {
+	display: inline-block;
+	align-items: baseline;
+	font-size: 23px;
+	padding: 0px 5px;
+}
+
+.link-cabecalho{
+	font-family: 'Roboto', sem serifa;
+}
+
+.link-cabecalho:hover {
+	color: #ffffff;
+} 
+
+main {
+ 	display: block;
+ 	text-align: center;
+ 	margin: 20px;
+ 	background: #c8bfd8;
+ 	border-radius: 10px;
+ }
+
+.section-index {
+	display: block;
+	text-align: center;
+	padding: 10px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.subtitulo-index {
+	font-size: 29px;
+	padding-top: 15px;
+	color: #644c7c;
+	font-family: Lugrasimo;
+}
+
+.subtitulo-index:hover {
+	color: #ffffff;
+}
+
+.texto-index {
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	margin: 5px; 
+}
+
+#div-index-foto {
+	display: flex;
+	justify-content: center;
+ 	text-align: center;
+}
+
+.foto-index {
+	height: 175px;
+ 	width: 225px;
+ 	margin: 10px 20px;
+}
+
+#div-index-abrigo {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.img-index-abrigo {
+	height: 175px;
+ 	width: 225px;
+ 	margin: 10px;
+}
+
+#div-index-doacao {
+	text-align: center;
+}
+
+#imagem-doacao {
+	height: 130px;
+	width: 130px;
+}
+
+#div-doacao-texto {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.redes_sociais {
+	height: 50px;
+	width: 50px;
+	margin: 10px 5px;
+}
+
+#div-rodape {
+	text-align: center;
+	align-items: center;
+}
+
+#txt-redes-sociais {
+	font-family: 'Roboto', sans-serif;
+}
+
+#logo-rodape {
+ 	width: 130px;
+ 	height: 100px;
+ 	margin-top: 5px;
+ }
+
+/* estilo adoção*/
+
+#section-formulário {
+	text-align: center;
+	font-size: 20px;
+	margin: 15px 25px ;
+	padding: 10px;
+	background: #c8bfd8;
+}
+
+#texto-formulario {
+	font-family: 'Roboto', sans-serif;
+}
+
+#formulário {
+	background: #a494b4;
+	padding: 15px;
+	margin: 15px 150px;
+	border-radius: 20px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#titulo-formulario {
+	font-size: 20px;
+	font-family: 'Caladea', serif;
+}
+
+#bt-formulario-adocao {
+	margin-top: 5px;
+	background: #c8bfd8;
+	height: 30px;
+	width: 90px;
+	border-radius: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+input {
+	margin: 10px;
+}
+
+/* Lar temporario*/
+
+#section-um-lar-temporario {
+	background: #c8bfd8;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 50px 10px 50px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+.section-div-texto {
+	padding: 05px 10px 20px 10px;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.titulo-lar-temporario {
+	font-family: 'Caladea', serif;
+	font-size: 25px;
+}
+
+#texto-um-lar-temporario {
+	text-align: left;
+}
+
+#texto-dois-lar-temporario {
+	text-align: right;
+}
+
+#texto-tres-lar-temporario {
+	text-align: right;
+}
+
+.img-lar-temporario {
+	height: 100px;
+	width: 100px;
+	margin: 0px 10px 0px 10px;
+}
+
+#titulo-formulário-lar-temporario {
+	background: #a494b4;
+	margin: 10px;
+	padding: 10px 30px 10px 0px;
+	border-radius: 20px;
+}
+
+form {
+	padding: 10px 0px 0px 0px;
+}
+
+#button-lar-temporario {
+	background: #c8bfd8;
+	width: 100px;
+	margin: 10px;
+	padding: 05px;
+	border-radius: 15px;
+	border-color: #644c7c;
+}
+
+/* estilo doação*/
+
+.titulo-doacao {
+	font-family: 'Caladea', serif;
+	font-size: 24px;
+	color: #644c7c;
+}
+
+#section-doacao-um {
+	background: #c8bfd8;
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	margin: 10px 10px 0px 10px;
+	padding: 10px 10px 30px 0px;
+}
+
+.texto-como-fazer-doacao {
+	font-family: 'Roboto',sem serifa;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+#section-um-div-um {
+	text-align: center;
+	margin: 5px 10px 20px 10px;
+}
+
+#div-doacao-img-txt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+}
+
+.img-section-um {
+	height: 150px;
+	width: 150px;
+	margin: 0px 20px;
+}
+
+#section-doacao-dois {
+	background: #c8bfd8;
+	margin: 0px 10px 10px 10px;
+	padding: 10px;
+}
+
+#section-dois-div-um {
+	background: #a494b4;
+	margin: 0px 10px 10px 10px;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#section-dois-div-formulario {
+	margin: 10px 150px 15px 150px;
+	background: #c8bfd8;
+	padding: 15px;
+	border-radius: 10px;
+	font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+#button-doacao {
+	background: #a494b4;
+	width: 100%;
+	max-width: 80px;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 7px;
+}
+
+#section-dois-div-img {
+	text-align: center;
+}
+
+.doacao-parte-fotos {
+	height: 150px;
+	width: 200px;
+	margin: 15px;
+}
+
+/* Cadastrar animais*/
+
+#section-cadastar-animais{
+	background: #c8bfd8;
+	padding: 15px;
+}
+
+#div-cadastrar-animais {
+	text-align: center;
+ 	background: #a494b4;
+ 	margin: 15px 200px;
+ 	padding: 10px 20px;
+ 	border-radius: 20px;
+ }
+
+#titulo-cadastar-animais {
+	font-size: 30px;
+	font-family: 'Caladea', serif;
+	color: #644c7c;
+}
+
+#div-form-adicionarAnimal {
+	font-size: 18px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#formulario-animais {
+	font-family: 'Roboto', sem serifa;
+}
+
+p {
+	margin: 15px;
+}
+
+.bt-pg-cadastrar-animais {
+	background: #c8bfd8;
+	max-width: 90px;
+    width: 90px;
+    border-radius: 15px;
+    height: 25px;
+    margin: 5px;
+    font-family: 'Caladea', sem serif;
+}
+
+.bt-pg-cadastrar-animais:hover {
+	background: #d3d3d3;
+
+}
+
+/* Animais cadastrados*/
+
+#div-titulo-animais-cadastrados {
+	text-align: center;
+	padding: 10px;
+}
+#titulo-animais-cadastrados {
+	font-size: 23px;
+	font-family: Lugrasimo;
+}
+
+#tabela-dados {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tabela-dados th,
+#tabela-dados td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#tabela-dados th {
+  background-color: #f2f2f2;
+  font-family: 'Caladea', sem serif;
+}
+
+#tabela-dados tbody {
+  background-color: #c8bfd8;
+  font-family: 'Roboto', sem serifa;
+  ;
+}
+
+#tabela-dados tbody tr:hover {
+  background-color: #e9e9e9;
+}
+
+/* sobre nós */
+
+#sec-sobre-nos {
+	margin: 20px;
+	padding: 20px;
+	background: #c8bfd8;
+}
+
+#titulo-sobre-nos {
+	font-size: 23px;
+	text-align: center;
+	color: #000000;
+	margin: 5px;
+}
+
+#texto-principal {
+	background: #a494b4;
+	margin: 10px 30px;
+	padding: 10px 30px;
+	font-size: 19px;
+	border-radius: 2em;
+}
+
+#texto-sobre-nos {
+	font-family: 'Roboto',sem serifa;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#div-img-sobre-nos {
+	background: #a494b4;
+	display: block;
+	text-align: center;
+}
+
+#texto-contato {
+	display: block;
+	font-size: 18px;
+}
+
+.img-contato {
+	padding: 10px;
+	width: 70px;
+	height: 70px;
+}
+
+@media screen and (max-width: 500px) {
+	body {
+	background: #644c7c;
+}
+
+header {
+	background: #c8bfd8;
+}
+
+	#cabecalho {
+	width: 100%;
+	display: block;
+    text-align: center;
+}
+
+#logo-cabecalho {
+	height: 150px;
+	width: 250px;
+}
+
+#h1-index {
+	display: none;
+}
+
+#nav-cabecalho {
+	 display: block;
+    justify-content: flex-end;
+}
+
+#menu-icon {
+	display: block;
+}
+
+li {
+	display:none;
+	align-items: baseline;
+	font-size: 23px;
+	padding: 0px 5px;
+}
+
+.link-cabecalho{
+	font-family: 'Roboto', sem serifa;
+}
+
+.link-cabecalho:hover {
+	color: #ffffff;
+} 
+
+main {
+ 	display: block;
+ 	text-align: center;
+ 	margin: 20px;
+ 	background: #c8bfd8;
+ 	border-radius: 10px;
+ }
+
+.section-index {
+	display: block;
+	text-align: center;
+	padding: 10px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.subtitulo-index {
+	font-size: 29px;
+	padding-top: 15px;
+	color: #644c7c;
+	font-family: Lugrasimo;
+}
+
+.subtitulo-index:hover {
+	color: #ffffff;
+}
+
+.texto-index {
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	margin: 5px; 
+}
+
+#div-index-foto {
+	display: flex;
+	justify-content: center;
+ 	text-align: center;
+}
+
+.foto-index {
+	height: 120px;
+ 	width: 190px;
+ 	margin: 10px 20px;
+}
+
+#cat-mel {
+	display: none;
+}
+
+#dog-caramelo {
+	display: none;
+}
+
+#div-index-abrigo {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.img-index-abrigo {
+	height: 130px;
+ 	width: 190px;
+ 	margin: 10px;
+}
+
+#div-index-doacao {
+	text-align: center;
+}
+
+#imagem-doacao {
+	margin: 15px 0px;
+	height: 130px;
+	width: 130px;
+}
+
+#div-doacao-texto {
+    align-items: center;
+}
+
+.redes_sociais {
+	height: 50px;
+	width: 50px;
+	margin: 10px 5px;
+}
+
+#div-rodape {
+	text-align: center;
+	align-items: center;
+}
+
+#txt-redes-sociais {
+	display: none;
+}
+
+#logo-rodape {
+ 	width: 130px;
+ 	height: 100px;
+ 	margin-top: 5px;
+ }
+
+/* Adocão */
+
+#section-formulário {
+	max-width: 500px;
+	width: 450px;
+	text-align: center;
+	font-size: 20px;
+	margin: 15px 25px ;
+	padding: 10px;
+	background: #c8bfd8;
+}
+
+#texto-formulario {
+	font-family: 'Roboto', sans-serif;
+}
+
+#formulário {
+	background: #a494b4;
+	margin: 15px 15px;
+	border-radius: 20px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#titulo-formulario {
+	font-size: 20px;
+	font-family: 'Caladea', serif;
+}
+
+#bt-formulario-adocao {
+	margin-top: 5px;
+	background: #c8bfd8;
+	height: 30px;
+	width: 90px;
+	border-radius: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+input {
+	margin: 10px;
+}
+
+#section-doacao-um {
+	background: #c8bfd8;
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	margin: 10px 10px 0px 10px;
+	padding: 10px 10px 30px 0px;
+}
+
+.texto-como-fazer-doacao {
+	font-family: 'Roboto',sem serifa;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+#section-um-div-um {
+	text-align: center;
+	margin: 5px 10px 20px 10px;
+}
+
+#div-doacao-img-txt {
+	display: block;
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+}
+
+.img-section-um {
+	height: 150px;
+	width: 150px;
+	margin: 0px 20px;
+}
+
+#section-doacao-dois {
+	background: #c8bfd8;
+	margin: 0px 10px 10px 10px;
+	padding: 10px;
+}
+
+#section-dois-div-um {
+	background: #a494b4;
+	margin: 0px 10px 10px 10px;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#section-dois-div-formulario {
+	margin: 10px;
+	background: #c8bfd8;
+	padding: 15px;
+	border-radius: 10px;
+	font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+#button-doacao {
+	background: #a494b4;
+	width: 100%;
+	max-width: 80px;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 7px;
+}
+
+#section-dois-div-img {
+	text-align: center;
+}
+
+.doacao-parte-fotos {
+	height: 150px;
+	width: 200px;
+	margin: 15px;
+}
+
+/* cadastar animais */
+
+#div-cadastrar-animais {
+	text-align: center;
+ 	background: #a494b4;
+ 	margin: 15px;
+ 	padding: 10px 20px;
+ 	border-radius: 20px;
+ }
+
+ /*sobre nós */
+
+#sec-sobre-nos {
+	margin: 5px;
+	background: #c8bfd8;
+}
+
+#titulo-sobre-nos {
+	font-size: 23px;
+	text-align: center;
+	color: #000000;
+	margin: 5px;
+}
+
+#texto-principal {
+	background: #a494b4;
+	margin: 10px 30px;
+	padding: 10px 30px;
+	font-size: 19px;
+	border-radius: 2em;
+}
+
+#texto-sobre-nos {
+	font-family: 'Roboto',sem serifa;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#div-img-sobre-nos {
+	background: #a494b4;
+	display: block;
+	text-align: center;
+}
+
+#texto-contato {
+	display: none;
+	font-size: 18px;
+}
+
+.img-contato {
+	padding: 10px;
+	width: 70px;
+	height: 70px;
+} 
+}  
+
+@media screen and (min-width: 500px) {
+	#menu-icon {
+		display: none;
+	}
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="./style.css"/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Caladea&family=Cormorant:ital@0;1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<title>Patinhas Unidas</title>
+	</head>
+
+	<body>
+		<header>
+			<div id="cabecalho">
+				<img id="logo-cabecalho" src="./Imagens/logo.png" alt="Logotipo Patinhas Unidas">
+				<h1 id="h1-index">Patinhas Unidas</h1>
+				<nav id="nav-cabecalho">
+					<span id="menu-icon" class="material-icons" onclick="clickMenu()">menu</span>
+					<ul id="ul-cabecalho">
+						<li><a class="link-cabecalho" href="./index.html">Página inicial</a></li>
+						<li><a class="link-cabecalho" href="./adocao./index.html">Adoção</a></li>
+						<li><a class="link-cabecalho" href="./lar-temporario./index.html">Lar temporário</a></li>
+						<li><a class="link-cabecalho" href="./doacao./index.html">Doação</a></li>
+						<li><a class="link-cabecalho" href="./cadastrar-animal./index.html">Cadastrar</a></li>
+						<li><a class="link-cabecalho" href="./animais-cadastrados./index.html">Animais</a></li>
+						<li><a class="link-cabecalho" href="./sobre-nos./index.html">Sobre nós</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+
+			<section class="section-index">
+				<div class="link-texto">
+					<a href="./adocao./index.html"><h3 class="subtitulo-index" >Quero adotar um pet</h3></a>
+					<br>
+					<h4 class="texto-index">Nos ajude a encontrar um novo lar para nossos resgatados<h4>
+					<br>
+				</div>
+				<div id="div-index-foto">
+					<img class="foto-index" src="./Imagens/gata tricolor.jpg" alt="gata tricolor">
+					<img class="foto-index" id="cat-mel" src="./Imagens/gata Mel.jpg" alt="gata Mel">
+					<img class="foto-index" src="./Imagens/cadela Nina.jpg" alt="cachorro preto">
+					<img class="foto-index" id="dog-caramelo" src="./Imagens/cachorro caramelo.jpg" alt="cachorro caramelo">
+				</div>
+			</section>
+
+			<section class="section-index">
+				<div class="link-texto">
+					<a href="./adocao./index.html"><h3 class="subtitulo-index">Seja lar temporário</h3></a>
+					<br>
+				</div>
+				<div id="div-index-abrigo">
+					<img class="img-index-abrigo" id="imagem-cat" src="./Imagens/Gato Ginger.jpg" alt="Gato Ginger">
+						<h4 class="texto-index" 
+						id="texto-abrigo-temporario">Forneça abrigo temporário para um de nossos resgatados, assim podemos ajudar mais animais</h4>
+						<img class="img-index-abrigo" id="imagem-dog" src="./Imagens/cachorro branco.jpg" alt="cachorro branco">
+				</div>
+			</section>
+
+			<section class="section-index">
+				<div id="div-index-doacao">
+					<a href="./doacao./index.html"><h3 class="subtitulo-index">Fazer uma doação</h3></a>
+					<div id="div-doacao-texto">
+							<img id="imagem-doacao" src="./Imagens/logo doação.png" alt="logo doação">
+							<h4 class="texto-index">Faça uma doação e nos ajude a transformar a vida de mais animais</h4>
+					</div>
+				</div>
+			</section>
+
+			<section class="section-index">
+				<div id="txt-redes-sociais">
+					Nos siga nas nossas redes sociais
+					<br>
+					<div id="img_redes_sociais">
+						<ul>
+							<li><a href="#"><img class="redes_sociais" 
+								src="./Imagens/logo facebook.png" alt="logo facebook"></a></li>
+							<li><a href="#"><img class="redes_sociais" 
+								src="./Imagens/logo instagram.png" alt="logo instagram"></a></li>
+							<li><a href="#"><img class="redes_sociais" 
+								src="./Imagens/logo tiktok.png" alt="logo tiktok"></a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div id="div-rodape">
+				<img id="logo-rodape" src="./Imagens/logo.png" alt="Logotipo Patinhas Unidas">
+			</div>
+		</footer>
+
+		<script>
+        function clickMenu() {
+            const listaMenu = document.querySelectorAll('#nav-cabecalho li');
+
+            listaMenu.forEach(function (item) {
+                if (item.style.display === 'none') {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+	            });
+	        }
+	    </script>
+
+	</body>
+</html>
